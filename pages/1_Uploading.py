@@ -5,9 +5,9 @@ import os
 
 st.title("Dataset Uploading")
 st.image("EDA.png", width= 500)
-
-st.write("you dont have data now...we got you. Download any of data for apporiate model and upload to test.")
 """
+st.write("you dont have data now...we got you. Download any of data for apporiate model and upload to test.")
+
 with open('Data select\classification data.csv', 'rb') as f: 
                 st.download_button('Regression sample data', f, file_name="regression.csv")
 with open('Data select\data.csv', 'rb') as f: 
