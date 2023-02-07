@@ -5,14 +5,11 @@ import os
 
 st.title("Dataset Uploading")
 st.image("EDA.png", width= 500)
-"""
+
 st.write("you dont have data now...we got you. Download any of data for apporiate model and upload to test.")
 
-with open('Data select\classification data.csv', 'rb') as f: 
-                st.download_button('Regression sample data', f, file_name="regression.csv")
-with open('Data select\data.csv', 'rb') as f: 
-                st.download_button('Classifcation sample data', f, file_name="Classification.csv")
-"""
+st.write("Linked to Dataset. [Download](https://github.com/kehindebabawale/k2kAutoML/tree/main/Data%20select)")
+
 
 if "my_input" not in st.session_state:
     st.session_state["my_input"] = ""
